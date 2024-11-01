@@ -1,6 +1,8 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using QlySach_API.Data;
+using QlySach_API.Model.Entity;
+using System.Linq;
 
 namespace QlySach_API.Service
 {
@@ -24,6 +26,19 @@ namespace QlySach_API.Service
             return await appDbContext.Users
                 .Include(u => u.Role)
                 .AnyAsync(u => u.Id == userId && u.Role.nameRole == roleName);
+        }
+        public bool UserHasFunctionality(int userId, Functionality functionality)
+        {
+            return appDbContext.Users
+                .Include(u => u.Role)
+                .Any(u => u.Id == userId && u.Role.functionalities.Contains(functionality));
+        }
+
+        public async Task<bool> UserHasFunctionalityAsync(int userId, Functionality functionality)
+        {
+            return await appDbContext.Users
+                .Include(u => u.Role)
+                .AnyAsync(u => u.Id == userId && u.Role.functionalities.Contains(functionality));
         }
     }
 }

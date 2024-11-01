@@ -24,13 +24,13 @@ namespace QlySach_API.Service
             {
                 return null;
             }
-            
+
             string token = tokenGenerator.GeneratorToken(user, user.Role.nameRole);
             return new AuthResponse
             {
                 jwtToken = token,
                 roleName = user.Role.nameRole,
-            }; 
+            };
         }
 
         public bool isUserInRole(User user, string nameRole)

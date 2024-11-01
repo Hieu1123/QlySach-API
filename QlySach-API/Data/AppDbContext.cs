@@ -27,9 +27,21 @@ namespace QlySach_API.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Role>().HasData(
-                new Role { Id = 1, nameRole = "Admin" },
-                new Role { Id = 2, nameRole = "User" }
+                new Role
+                {
+                    Id = 1, nameRole = "Admin",
+                    functionalities = new List<Functionality>
+                    { Functionality.View, Functionality.Add, Functionality.Delete, Functionality.Edit, Functionality.getById, Functionality.ViewPage}
+                },
+                new Role
+                {
+                    Id = 2,
+                    nameRole = "User",
+                    functionalities = new List<Functionality>
+                    { Functionality.View, Functionality.ViewPage}
+                }
             );
+
 
             modelBuilder.Entity<User>().HasData(
                 new User { Id = 1, userName = "admin", Password = "admin", RoleId = 1 },

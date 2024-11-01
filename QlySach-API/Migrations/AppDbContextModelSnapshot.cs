@@ -52,6 +52,10 @@ namespace QlySach_API.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("functionalities")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("nameRole")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -64,11 +68,13 @@ namespace QlySach_API.Migrations
                         new
                         {
                             Id = 1,
+                            functionalities = "[0,1,2,3,4,5]",
                             nameRole = "Admin"
                         },
                         new
                         {
                             Id = 2,
+                            functionalities = "[0,5]",
                             nameRole = "User"
                         });
                 });
@@ -109,42 +115,6 @@ namespace QlySach_API.Migrations
                     b.HasIndex("danhMucId");
 
                     b.ToTable("SachDanhMucs");
-                });
-
-            modelBuilder.Entity("QlySach_API.Model.Entity.TokenRole", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("jwtToken")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<int>("roleId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("roleId");
-
-                    b.ToTable("TokenRoles");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            jwtToken = "",
-                            roleId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            jwtToken = "",
-                            roleId = 2
-                        });
                 });
 
             modelBuilder.Entity("QlySach_API.Model.Entity.User", b =>
@@ -216,17 +186,6 @@ namespace QlySach_API.Migrations
                     b.Navigation("DanhMuc");
 
                     b.Navigation("Sach");
-                });
-
-            modelBuilder.Entity("QlySach_API.Model.Entity.TokenRole", b =>
-                {
-                    b.HasOne("QlySach_API.Model.Entity.Role", "Role")
-                        .WithMany()
-                        .HasForeignKey("roleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("QlySach_API.Model.Entity.User", b =>

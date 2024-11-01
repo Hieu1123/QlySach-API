@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Graph.Models;
 using QlySach_API.Data;
 using QlySach_API.Model.Entity;
 using QlySach_API.Service;
@@ -23,25 +24,43 @@ namespace QlySach_API.Controllers
             this.appDbContext = appDbContext;
             this.roleService = roleService;
         }
-
-
-        [Authorize(Roles = "Admin")]
+        private int GetCurrentUserId()
+        {
+            return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "0");
+        }
         [HttpPost]
         public async Task<IActionResult> addDanhMuc(DanhMuc danhmuc)
         {
-
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.Add))
+            {
+                return Forbid();
+            }
+            
             var add = await danhMucModel.addDanhMuc(danhmuc);
             return Ok(add);
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DanhMuc>>> getAllDanhMuc()
         {
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.View))
+            {
+                return Forbid();
+            }
+
             var get = await danhMucModel.getAllDanhMuc();
             return Ok(get);
         }
         [HttpPut("{Id}")]
         public async Task<IActionResult> updateDanhMuc(int Id, DanhMuc danhmuc)
         {
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.Edit))
+            {
+                return Forbid();
+            }
+
             if (Id != danhmuc.Id)
             {
                 return BadRequest();
@@ -56,6 +75,12 @@ namespace QlySach_API.Controllers
         [HttpDelete("{Id}")]
         public async Task<IActionResult> deleteDanhMuc(int Id)
         {
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.Delete))
+            {
+                return Forbid();
+            }
+
             var del = await danhMucModel.deleteDanhMuc(Id);
             if (del == null)
             {
@@ -67,6 +92,12 @@ namespace QlySach_API.Controllers
         [HttpGet("{Id}")]
         public async Task<ActionResult<DanhMuc>> getDanhMucById(int Id)
         {
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.getById))
+            {
+                return Forbid();
+            }
+
             var getId = await danhMucModel.getDanhMucById(Id);
 
             if (getId == null)
@@ -79,6 +110,12 @@ namespace QlySach_API.Controllers
         [HttpGet("Page")]
         public async Task<IActionResult> pageDanhMuc(int page = 1, int pageSize = 5)
         {
+            int userId = GetCurrentUserId();
+            if (!roleService.UserHasFunctionality(userId, Functionality.ViewPage))
+            {
+                return Forbid();
+            }
+
             var allDanhMuc = await appDbContext.DanhMuc.ToArrayAsync();
             var pageData = allDanhMuc
                 .Skip((page - 1) * pageSize)

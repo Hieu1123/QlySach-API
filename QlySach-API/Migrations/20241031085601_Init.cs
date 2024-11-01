@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace QlySach_API.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -62,6 +62,8 @@ namespace QlySach_API.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     nameRole = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    functionalities = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -96,28 +98,6 @@ namespace QlySach_API.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "TokenRoles",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    roleId = table.Column<int>(type: "int", nullable: false),
-                    jwtToken = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TokenRoles", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_TokenRoles_Roles_roleId",
-                        column: x => x.roleId,
-                        principalTable: "Roles",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -143,20 +123,11 @@ namespace QlySach_API.Migrations
 
             migrationBuilder.InsertData(
                 table: "Roles",
-                columns: new[] { "Id", "nameRole" },
+                columns: new[] { "Id", "functionalities", "nameRole" },
                 values: new object[,]
                 {
-                    { 1, "Admin" },
-                    { 2, "User" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "TokenRoles",
-                columns: new[] { "Id", "jwtToken", "roleId" },
-                values: new object[,]
-                {
-                    { 1, "", 1 },
-                    { 2, "", 2 }
+                    { 1, "[0,1,2,3,4,5]", "Admin" },
+                    { 2, "[0,5]", "User" }
                 });
 
             migrationBuilder.InsertData(
@@ -179,11 +150,6 @@ namespace QlySach_API.Migrations
                 column: "danhMucId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TokenRoles_roleId",
-                table: "TokenRoles",
-                column: "roleId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Users_RoleId",
                 table: "Users",
                 column: "RoleId");
@@ -194,9 +160,6 @@ namespace QlySach_API.Migrations
         {
             migrationBuilder.DropTable(
                 name: "SachDanhMucs");
-
-            migrationBuilder.DropTable(
-                name: "TokenRoles");
 
             migrationBuilder.DropTable(
                 name: "Users");
