@@ -14,31 +14,40 @@ namespace QlySach_API.Service
             this.appDbContext = appDbContext;
         }
 
-        public bool UserHasRole(int userId, string roleName)
-        {
-            return appDbContext.Users
-                .Include(u => u.Role)
-                .Any(u => u.Id == userId && u.Role.nameRole == roleName);
-        }
-
-        public async Task<bool> UserHasRoleAsync(int userId, string roleName)
-        {
-            return await appDbContext.Users
-                .Include(u => u.Role)
-                .AnyAsync(u => u.Id == userId && u.Role.nameRole == roleName);
-        }
         public bool UserHasFunctionality(int userId, Functionality functionality)
         {
-            return appDbContext.Users
+            var user = appDbContext.Users
                 .Include(u => u.Role)
-                .Any(u => u.Id == userId && u.Role.functionalities.Contains(functionality));
+                .FirstOrDefault(u => u.Id == userId);
+
+            return user?.Role.Functionalities.Contains(functionality) ?? false;  
         }
 
         public async Task<bool> UserHasFunctionalityAsync(int userId, Functionality functionality)
         {
-            return await appDbContext.Users
+            var user = await appDbContext.Users
                 .Include(u => u.Role)
-                .AnyAsync(u => u.Id == userId && u.Role.functionalities.Contains(functionality));
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            return user?.Role.Functionalities.Contains(functionality) ?? false;
+        }
+
+        public bool UserHasRole(int userId, string roleName)
+        {
+            var user = appDbContext.Users
+                .Include(u => u.Role)
+                .FirstOrDefault(u => u.Id == userId);
+
+            return user.Role.nameRole == roleName;
+        }
+
+        public async Task<bool> UserHasRoleAsync(int userId, string roleName)
+        {
+            var user = await appDbContext.Users
+                .Include(u => u.Role)
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            return user.Role.nameRole == roleName;
         }
     }
 }

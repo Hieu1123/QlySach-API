@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QlySach-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61fb9512507fc05b80d595977b3628fbb18aa08d")]
 [assembly: System.Reflection.AssemblyProductAttribute("QlySach-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QlySach-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

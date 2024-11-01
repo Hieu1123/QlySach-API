@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\service\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\service\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\auth\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\auth\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\service\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\service\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\page\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\page\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\entity\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\entity\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\entity\\sachdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|solutionrelative:qlysach-api\\model\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E43E64D-B199-4BFF-8D44-2BB2A441CA62}|QlySach-API\\QlySach-API.csproj|c:\\users\\admin\\source\\repos\\qlysach-api\\qlysach-api\\model\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,71 +82,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "QlySach-API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "QlySach-API\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBAAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Auth\\TokenGenerator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\TokenGenerator.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Auth\\TokenGenerator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAvwB4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:08:46.111Z"
+              "WhenOpened": "2024-11-01T07:55:50.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SachDanhMuc.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
-              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
-              "RelativeToolTip": "QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
+              "DocumentIndex": 10,
+              "Title": "PagedResultBase.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Page\\PagedResultBase.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Page\\PagedResultBase.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Page\\PagedResultBase.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Page\\PagedResultBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:08:27.21Z"
+              "WhenOpened": "2024-11-01T06:33:49.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "QlySach-API\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "QlySach-API\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAACEAAAARAAAA",
+              "DocumentIndex": 11,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\Sach.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\Sach.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\Sach.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Entity\\Sach.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:56:17.603Z"
+              "WhenOpened": "2024-11-01T06:21:50.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "DanhMuc.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\DanhMuc.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\DanhMuc.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\DanhMuc.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Entity\\DanhMuc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:19:20.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\Role.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\Role.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\Role.cs",
               "RelativeToolTip": "QlySach-API\\Model\\Entity\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAfAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T06:51:57.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\User.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\User.cs",
-              "RelativeToolTip": "QlySach-API\\Model\\Entity\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:51:56.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Program.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Program.cs",
@@ -138,56 +159,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\RoleService.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Service\\RoleService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\RoleService.cs",
               "RelativeToolTip": "QlySach-API\\Service\\RoleService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAApwCgAAABhAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAApwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T03:17:13.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T03:17:13.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\IRoleService.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Service\\IRoleService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\IRoleService.cs",
               "RelativeToolTip": "QlySach-API\\Service\\IRoleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T03:17:09.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Service\\AuthService.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Service\\AuthService.cs",
               "RelativeToolTip": "QlySach-API\\Service\\AuthService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAsAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T03:13:03.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Controllers\\DanhMucController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\DanhMucController.cs",
               "RelativeToolTip": "QlySach-API\\Controllers\\DanhMucController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAuwHEAAABHAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwHcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T03:03:20.125Z"
+              "WhenOpened": "2024-10-31T03:03:20.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Auth\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T02:58:13.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SachController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\SachController.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Controllers\\SachController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\SachController.cs",
+              "RelativeToolTip": "QlySach-API\\Controllers\\SachController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwF0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:21:11.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "QlySach-API\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:08:46.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\User.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Entity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:51:56.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "QlySach-API\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:56:17.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SachDanhMuc.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
+              "RelativeDocumentMoniker": "QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
+              "RelativeToolTip": "QlySach-API\\Model\\Entity\\SachDanhMuc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:08:27.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "20241031085601_Init.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Migrations\\20241031085601_Init.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Migrations\\20241031085601_Init.cs",
@@ -199,19 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "QlySach-API\\Model\\Auth\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\LoginRequest.cs",
-              "RelativeToolTip": "QlySach-API\\Model\\Auth\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T02:58:13.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AuthResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QlySach-API\\QlySach-API\\Model\\Auth\\AuthResponse.cs",
               "RelativeDocumentMoniker": "QlySach-API\\Model\\Auth\\AuthResponse.cs",

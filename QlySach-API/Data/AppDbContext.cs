@@ -30,14 +30,14 @@ namespace QlySach_API.Data
                 new Role
                 {
                     Id = 1, nameRole = "Admin",
-                    functionalities = new List<Functionality>
+                    Functionalities = new List<Functionality>
                     { Functionality.View, Functionality.Add, Functionality.Delete, Functionality.Edit, Functionality.getById, Functionality.ViewPage}
                 },
                 new Role
                 {
                     Id = 2,
                     nameRole = "User",
-                    functionalities = new List<Functionality>
+                    Functionalities = new List<Functionality>
                     { Functionality.View, Functionality.ViewPage}
                 }
             );

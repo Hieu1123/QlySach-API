@@ -155,6 +155,7 @@ C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\QlySach-API
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\QlySach-API.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\QlySach-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\QlySach-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\QlySach-API.sourcelink.json
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\source\repos\QlySach-API\QlySach-API\obj\Debug\net8.0\staticwebassets\msbuild.QlySach-API.Microsoft.AspNetCore.StaticWebAssets.props

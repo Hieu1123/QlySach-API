@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace QlySach_API.Model.Entity
 {
-    public enum Functionality 
-    { 
+    public enum Functionality
+    {
         View,
         Add,
         Delete,
@@ -16,25 +16,26 @@ namespace QlySach_API.Model.Entity
         getById,
         ViewPage
     }
+
     public class Role
     {
         public int Id { get; set; }
         public string nameRole { get; set; }
-        public List<User> Users { get; set; } = new List<User>();
-
-        public List<Functionality> functionalities { get; set; } = new List<Functionality>();
+        public List<Functionality> Functionalities { get; set; } = new List<Functionality>();
+        public virtual ICollection<User> Users { get; set; }
 
         public Role() { }
 
-        public Role(string nameRole, List<Functionality> functionalities) 
+        public Role(string nameRole, List<Functionality> functionalities)
         {
-            this.nameRole = nameRole;
-            this.functionalities = functionalities;
+            nameRole = nameRole;
+            Functionalities = functionalities;
         }
     }
-    public class RoleDefinitions
+
+    public static class RoleDefinitions
     {
-        public static Role AdminRole = new Role( "admin", new List<Functionality>
+        public static Role AdminRole = new Role("admin", new List<Functionality>
         {
             Functionality.View,
             Functionality.Add,
@@ -43,7 +44,8 @@ namespace QlySach_API.Model.Entity
             Functionality.getById,
             Functionality.ViewPage
         });
-        public static Role UserRole = new Role("User", new List<Functionality>
+
+        public static Role UserRole = new Role("user", new List<Functionality>
         {
             Functionality.View,
             Functionality.ViewPage
